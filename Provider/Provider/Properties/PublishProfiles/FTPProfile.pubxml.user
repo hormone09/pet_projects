@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://ftp.site4now.net/site1</_PublishTargetUrl>
+    <History>True|2021-06-15T05:12:39.1540282Z;False|2021-06-15T11:06:28.8378143+06:00;True|2021-06-15T04:48:28.1128645+06:00;False|2021-06-15T04:41:24.3910155+06:00;False|2021-06-15T04:02:52.8509890+06:00;False|2021-06-15T03:56:34.4933570+06:00;True|2021-06-15T03:52:00.8525542+06:00;True|2021-06-15T01:00:15.4612332+06:00;True|2021-06-13T23:41:23.4328864+06:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>06/10/2021 21:04:57</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/15/2021 11:06:36</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.Internal.dll">
+      <publishTime>05/13/2021 21:02:40</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.KeyDerivation.dll">
+      <publishTime>05/13/2021 21:02:50</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll">
+      <publishTime>05/13/2021 21:04:18</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 23:24:48</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>05/13/2021 18:31:38</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>05/13/2021 18:31:54</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>05/13/2021 18:31:58</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>05/13/2021 18:32:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>10/19/2020 18:48:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>10/19/2020 18:48:36</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>10/19/2020 18:48:28</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>11/26/2020 01:59:08</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Identity.Core.dll">
+      <publishTime>05/13/2021 21:03:02</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Identity.Stores.dll">
+      <publishTime>05/13/2021 21:03:16</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>10/19/2020 18:48:04</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>10/19/2020 18:53:18</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>10/19/2020 18:48:30</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>10/19/2020 18:48:36</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>05/18/2020 20:11:54</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/18/2019 23:39:24</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>10/18/2019 23:40:20</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>10/18/2019 23:41:02</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>10/18/2019 23:48:48</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>10/18/2019 23:43:40</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/17/2021 20:03:36</publishTime>
+    </File>
+    <File Include="Provider.deps.json">
+      <publishTime>06/15/2021 11:06:56</publishTime>
+    </File>
+    <File Include="Provider.dll">
+      <publishTime>06/15/2021 11:06:42</publishTime>
+    </File>
+    <File Include="Provider.exe">
+      <publishTime>06/15/2021 11:06:42</publishTime>
+    </File>
+    <File Include="Provider.pdb">
+      <publishTime>06/15/2021 11:06:42</publishTime>
+    </File>
+    <File Include="Provider.runtimeconfig.json">
+      <publishTime>06/13/2021 23:15:45</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 23:25:12</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:35:06</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 23:24:48</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 08:53:44</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 08:53:46</publishTime>
+    </File>
+    <File Include="System.Collections.Immutable.dll">
+      <publishTime>10/19/2020 18:37:40</publishTime>
+    </File>
+    <File Include="System.ComponentModel.Annotations.dll">
+      <publishTime>10/19/2020 18:37:54</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/15/2019 08:37:04</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>12/12/2020 02:40:42</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>10/18/2019 23:38:18</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 08:37:36</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 08:37:42</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>06/15/2021 11:06:56</publishTime>
+    </File>
+    <File Include="wwwroot/Applications.html">
+      <publishTime>06/14/2021 23:17:58</publishTime>
+    </File>
+    <File Include="wwwroot/css/slider.css">
+      <publishTime>06/09/2021 19:04:25</publishTime>
+    </File>
+    <File Include="wwwroot/css/style.css">
+      <publishTime>06/15/2021 04:32:53</publishTime>
+    </File>
+    <File Include="wwwroot/Help.html">
+      <publishTime>06/14/2021 23:24:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/instagram.png">
+      <publishTime>06/09/2021 20:31:34</publishTime>
+    </File>
+    <File Include="wwwroot/img/logo.jpg">
+      <publishTime>06/09/2021 18:24:00</publishTime>
+    </File>
+    <File Include="wwwroot/img/quard.png">
+      <publishTime>06/09/2021 20:09:42</publishTime>
+    </File>
+    <File Include="wwwroot/img/question.png">
+      <publishTime>06/09/2021 20:13:03</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider1.jpg">
+      <publishTime>06/09/2021 18:48:05</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider2.jpg">
+      <publishTime>06/09/2021 18:49:53</publishTime>
+    </File>
+    <File Include="wwwroot/img/slider3.jpg">
+      <publishTime>06/09/2021 18:49:02</publishTime>
+    </File>
+    <File Include="wwwroot/img/smartphone.png">
+      <publishTime>06/09/2021 20:09:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/tel.png">
+      <publishTime>06/09/2021 18:20:58</publishTime>
+    </File>
+    <File Include="wwwroot/img/telegram.png">
+      <publishTime>06/09/2021 20:36:16</publishTime>
+    </File>
+    <File Include="wwwroot/img/whatsapp.png">
+      <publishTime>06/09/2021 20:32:13</publishTime>
+    </File>
+    <File Include="wwwroot/Index.html">
+      <publishTime>06/14/2021 23:17:08</publishTime>
+    </File>
+    <File Include="wwwroot/js/animation.js">
+      <publishTime>06/15/2021 11:06:07</publishTime>
+    </File>
+    <File Include="wwwroot/js/connections.js">
+      <publishTime>09/06/2021 23:36:45</publishTime>
+    </File>
+    <File Include="wwwroot/js/jQuery.js">
+      <publishTime>06/12/2021 14:59:31</publishTime>
+    </File>
+    <File Include="wwwroot/js/server.js">
+      <publishTime>06/15/2021 11:06:02</publishTime>
+    </File>
+    <File Include="wwwroot/Login.html">
+      <publishTime>06/14/2021 23:18:08</publishTime>
+    </File>
+    <File Include="wwwroot/ManagerMain.html">
+      <publishTime>06/14/2021 23:18:13</publishTime>
+    </File>
+    <File Include="wwwroot/NewUser.html">
+      <publishTime>06/14/2021 23:18:17</publishTime>
+    </File>
+    <File Include="wwwroot/PersonalArea.html">
+      <publishTime>06/15/2021 04:42:11</publishTime>
+    </File>
+    <File Include="wwwroot/Rates.html">
+      <publishTime>06/14/2021 23:18:26</publishTime>
+    </File>
+    <File Include="wwwroot/Services.html">
+      <publishTime>06/14/2021 23:18:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
