@@ -1,0 +1,32 @@
+﻿@model Basket;
+
+<div class="container">
+    <div class="basket">
+        @if (Model.items.Count != 0)
+        {
+            <h1>Товар, в вашей корзине:</h1>
+            @foreach (BasketItem el in Model.items)
+            {
+                <div class="BasketItem">
+                    <p>Название: @el.type</p>
+                    <p>@el.desk</p>
+                    <p>Количество: @el.amount</p>
+                    <form action="/Home/RemoveFromBasket" method="post">
+                        <input type="hidden" name="id" value=@el.id>
+                        <button type="submit">Удалить из корзины</button>
+                    </form>
+                </div>
+            }
+
+            <h4>Общая стоимость товара: @Model.finalPrice</h4>
+
+            <form action="/Home/Order/" method="get">
+                <button type="submit">Сделать заказ</button>
+            </form>
+        }
+        else
+        {
+            <h1>Ваша корзина пока пуста!</h1>
+        }
+    </div>
+</div>

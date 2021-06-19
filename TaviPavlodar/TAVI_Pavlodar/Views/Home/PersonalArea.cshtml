@@ -1,0 +1,25 @@
+﻿@model PersonalAreaViewModel;
+
+
+<div class="container">
+    <h4>Ваш личный кабинет, @Model.FullUserName</h4>
+    <div class="RowPersonalArea">
+        <a href="/Home/ShowActiveUserOrders">
+            <div class="ColumnPersonalArea">
+                <p>Активные заказы</p>
+            </div>
+        </a>
+
+        <a href="/Home/ShowFinishedOrders">
+            <div class="ColumnPersonalArea">
+                <p>Завершенные заказы</p>
+            </div>
+        </a>
+
+        <a href="/Home/ShowUserInfo/">
+            <div class="ColumnPersonalArea">
+                <p>Данные вашего аккаунта</p>
+            </div>
+        </a>
+    </div>
+</div>

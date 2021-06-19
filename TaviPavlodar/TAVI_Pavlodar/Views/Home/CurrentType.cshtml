@@ -1,0 +1,35 @@
+﻿@model CurrentTypeViewModel;
+
+<div class="container">
+    <h4>Товары в категории "@Model.products[0].type"</h4>
+    <div class="RowCurrentType">
+        @for(int i =0; i<Model.products.Count; i++)
+        {
+            <div class="ColumnCurrentType">
+                <div class="Image">
+                    <img src="https://i.ibb.co/cYdR098/Laminat.jpg" alt="Alternate Text" />
+                </div>
+                <div class="Text">
+                    <form action="/Home/AddToBasket/" method="post">
+                        <p>Название: @Model.products[i].desk</p>
+                        <p>@Model.products[i].parametr1</p>
+                        <p>@Model.products[i].parametr2</p>
+                        <p>Цена: @Model.products[i].price</p>
+                        <p>В наличии: @Model.products[i].avalib шт.</p>
+                        <p>Укажите количество товара для покупки: </p>
+                        <button type="button" onclick="downAmount(@i)">-</button>
+                        <input class="currentInp" name="amount" value="1">
+                        <button type="button" onclick="upAmount(@i,@Model.products[i].avalib)">+</button>
+                        <input type="hidden" name="id" value=@Model.products[i].id>
+                        <input type="hidden" name="type" value=@Model.products[i].type>
+                        <button onclick="succes(@i)" type="submit">В корзину</button>
+                        <p id="succes" class="succes">Товар добавлен в корзину!</p>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+
+    </div>
+
+    

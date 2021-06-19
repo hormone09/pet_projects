@@ -1,0 +1,715 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: Bookman, URW Bookman L, serif;
+    font-size: 18px;
+}
+body a
+{
+    text-decoration: none;
+    color: black;
+}
+body a:visited
+{
+    color: inherit;
+}
+h4
+{
+    margin: 5% 0%;
+    border-bottom: 3px dashed black;
+    text-align: left;
+    color: dimgray;
+    font-size: 30px;
+}
+.container
+{
+    width: 70%;
+    margin: 8% 15%;
+}
+.navbar1
+{
+    height: 50px;
+    background-color: lightgrey;
+    display: flex;
+}
+.navbar1 a:hover
+{
+    color: dodgerblue;
+}
+.navbar1 div
+{
+    display: flex;
+    width: 50%;
+    color: black;
+    margin: 0% 8%;
+}
+.navbar1 a
+{
+    width: 50%;
+    margin: 2.5% 5%;
+}
+.navbar2
+{
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar2 .logo
+{
+    width: 30%;
+}
+.navbar2 .logo a
+{
+    margin: 40%;
+}
+.navbar2 img
+{
+    height: 120px;
+    width: auto;
+}
+.navbar2 .menu
+{
+    margin: 30px 10px;
+    height: 62px;
+    width: 80px;
+}
+.navbar2 .between p
+{
+    margin: 17% 0%;
+}
+.navbar2 .search
+{
+    display: block;
+    width: 60%;
+}
+.navbar2 .search-links
+{
+    display: none;
+    justify-content: center;
+    width: 60%;
+    color: black;
+    border-top: 2px solid dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+}
+.navbar2 .search-links a
+{
+    font-size: 20px;
+    text-align: center;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    width: 45%;
+    margin: 5% 10%;
+}
+.navbar2 .search-links a:hover
+{
+    border-bottom: 2px solid dodgerblue;
+    border-right: 2px solid dodgerblue;
+    border-left: 2px solid dodgerblue;
+}
+.navbar2 form {
+    margin: 30px 0px;
+    display: flex;
+    border: 1px solid #a39d9d;
+    height: 60px;
+    width: 100%;
+}
+.navbar2 .input
+{
+    width: 80%;
+    height: 100%;
+}
+.navbar2 .button
+{
+    width: 20%;
+    height: 100%;
+}
+.navbar2 input
+{
+    margin: 0px 15px;
+    font-size: 22px;
+    outline: none;
+    border: 0px;
+    border-radius: 0px;
+    width: 70%;
+    height: 95%;
+}
+.navbar2 button
+{
+    font-size: 18px;
+    color: white;
+    background-color: gray;
+    border: 1.5px solid gray;
+    border-radius: 0px;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+.navbar2 button:hover
+{
+    border: 1px solid black;
+}
+.navbar2 .Icons
+{
+    display: block;
+    width: 30%;
+    height: 100%;
+}
+.navbar2 .hello
+{
+    margin: 30px 100px;
+    font-size: 12px;
+}
+.navbar2 .settings
+{
+    margin: -18px 135px;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+.navbar2 .settings a
+{
+    margin: 0px 30px;
+}
+.navbar2 .settings img
+{
+    height: 27px;
+    width: auto;
+}
+.indexImage
+{
+    margin: 0px;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+}
+.indexImage img
+{
+    margin: 0px;
+    opacity: 0.95;
+    width: 100%;
+    height: 100%;
+}
+.types
+{
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 3% 10%;
+    background-color: none;
+}
+h1
+{
+    color: dimgrey;
+    text-align: center;
+}
+.types .row
+{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+.types a
+{
+    width: 30%;
+    height: 450px;
+}
+.types .col
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.types .col:hover
+{
+    border: 1px solid dodgerblue;
+    box-shadow: 3px 7px 7px dodgerblue;
+}
+.fon
+{
+    overflow: hidden;
+    border-radius: 3%;
+    height: 85%;
+    width: 90%;
+    margin: 3% 5%;
+    background-color: black;
+}
+.types .col img
+{
+    border-radius: 3%;
+    opacity: 0.7;
+    margin: 0px;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+.types .col p
+{
+    text-align: center;
+    top: 40px;
+    font-size: 25px;
+    margin: 0% 5%;
+    font-family: Impact;
+    color: rgb(53, 55, 61)
+}
+.HaveRow {
+    margin: 3% 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.HaveColumn .fon
+{
+    margin: 5% 10%;
+    width: 80%;
+    height: 65%;
+    background-color: black;
+}
+.HaveColumn img
+{
+    width: 100%;
+    height: 100%;
+}
+.HaveRow a
+{
+    width: 24%;
+}
+.HaveColumn div{
+    margin: 0px 20px;
+}
+    .HaveColumn 
+    {
+    font-size: 15px;
+    font-family: Calibri;
+    border: 1px solid gray;
+    text-align: left;
+    display: block;
+    width: 90%;
+    height: 400px;
+}
+.HaveColumn h2
+{
+    position: fixed;
+    bottom: 15px;
+    color: white;
+    background-color: cornflowerblue;
+    width: 14.4%;
+    height: 30px;
+    font-size: 20px;
+    display: none;
+    text-align: center;
+}
+.HaveColumn:hover h2
+{
+    display: block;
+    text-shadow: 2px 2px 2px black;
+}
+.HaveColumn:hover
+{
+    border: 1px solid black;
+    box-shadow: 7px 7px 7px gray;
+}
+.RowPersonalArea
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.RowPersonalArea div
+{
+    margin: 10% 0%;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: Arial Black;
+    text-shadow: 5px 5px 5px black;
+    height: 300px;
+    width: 300px;
+    background-image: url('../img/PersonalArea.jpg');
+}
+.RowPersonalArea p
+{
+    margin: 100px 0px;
+}
+.RowPersonalArea div:hover
+{
+    box-shadow: inset 5px 1px 30px white;
+    text-shadow: 10px 10px 10px white;
+}
+.RowCurrentType
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ColumnCurrentType
+{
+    width: 49%;
+    height: 300px;
+    border: 2px solid lightgray;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.ColumnCurrentType .Image
+{
+    border-radius: 5%;
+    background-color: black;
+    width: 40%;
+    height: 70%;
+    margin: 5% 3%;
+}
+.ColumnCurrentType .Text
+{
+    margin: 20px 30px;
+    width: 60%;
+}
+.ColumnCurrentType img
+{
+    border-radius: 5%;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+}
+.ColumnCurrentType p
+{
+    margin: 10px 0px;
+}
+.ColumnCurrentType input
+{
+    text-align: center;
+    width: 40px;
+    height: 20px;
+    border-radius: 0%;
+}
+.ColumnCurrentType button
+{
+    border-radius: 0%;
+    text-align: center;
+    width: 80px;
+    height: 25px;
+}
+.BgAuthorize
+{
+    background-color: black;
+}
+.AuthorizeText
+{
+    position: fixed;
+    text-align: justify;
+    top: 100px;
+    left: 10%;
+    width: 500px;
+    color: white;
+    font-size: 35px;
+}
+.Authorize {
+    border-radius: 5%;
+    color: black;
+    border: 4px solid gray;
+    opacity: 0.8;
+    background-color: white;
+    position: fixed;
+    top: 160px;
+    right: 15%;
+    width: 500px;
+    height: 600px;
+}
+.Authorize button
+{
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    margin: 30px 175px;
+    font-size: 20px;
+}
+.Authorize h1
+{
+    color: black;
+    margin: 70px 0px;
+}
+.Authorize div
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5% 10%;
+    font-size: 25px;
+}
+.Authorize input
+{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    width: 60%;
+}
+.BgImg img {
+    opacity: 0.2;
+}
+.BgImg 
+{
+    background-color: black;
+}
+.basket .BasketItem {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.basket button
+{
+    margin: 10px 0px;
+    width: 130px;
+    height: 50px;
+    font-weight: normal;
+    font-size: 15px;
+}
+.loading
+{
+    display: flex;
+    width: 80%;
+    margin: 30px 0px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.loading p
+{
+     font-size: 20px;
+     width: 90%;
+    margin: 30px 10px;
+    font-weight: bold;
+}
+.loading input
+{
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    margin: 0px 10px;
+}
+.loading button
+{
+    width: 200px;
+    height: 60px;
+    margin: 60px 80px;
+    font-size: 18px;
+}
+.orders div
+{
+    border-bottom: 3px solid gray;
+}
+.orders button
+{
+    margin: 10px 0px;
+    width: 130px;
+    height: 35px;
+    border: 2px solid black;
+    font-size: 20px;
+    color: black;
+}
+.orders {
+    display: block;
+}
+.manager a
+{
+    height: 350px;
+    background-image: url('../img/PersonalArea.jpg');
+    border: 2px solid gray;
+}
+.manager a:hover div
+{
+    color: black;
+}
+.manager div
+{
+    margin: 50px 0px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.row
+{
+    display: flex;
+    justify-content: space-around;
+}
+.row .column4 .intoColumn
+{
+    border-bottom: 3px dotted gray;
+}
+.buttons
+{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button
+{
+    height: 30px;
+    font-size: 15px;
+    margin: 10px 0px;
+}
+.createUser 
+{
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+}
+.createUser input
+{
+    position: absolute;
+    margin-left: 220px;
+    width: 220px;
+    height: 40px;
+    font-size: 20px;
+}
+.createUser .pole {
+    margin: 50px 0px;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.createUser button
+{
+    width: 450px;
+    height: 50px;
+    font-size: 20px;
+}
+.AddProduct div
+{
+    font-size: 19px;
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+}
+.AddProduct input
+{
+    height: 20px;
+    width: 250px;
+    margin: 15px 0px;
+    font-size: 17px;
+    text-align: center;
+}
+.AddProduct select
+{
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+}
+.AddProduct button
+{
+    height: 40px;
+    width: 300px;
+}
+.ListProduct {
+    display: flex;
+    justify-content: space-between;
+}
+.LoadingRow
+{
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+.TimeColumn, .NameColumn, .TypesColumn, .IntervalColumn
+{
+    border: 2px solid gray;
+    margin: 1px 3px;
+}
+.LoadingRow .TimeColumn
+{
+    width: 15%;
+}
+.LoadingRow .NameColumn
+{
+    width: 15%;
+}
+.LoadingRow .TypesColumn
+{
+    width: 50%;
+}
+.LoadingRow .IntervalColumn
+{
+    width: 20%
+}
+.succes
+{
+    display: none;
+    color: green;
+}
+@media screen and (max-width: 1450px)
+{
+    .HaveColumn
+    {
+        height: 300px;
+    }
+    .HaveColumn .fon
+    {
+        height: 40%;
+    }
+    .navbar2 .hello {
+        margin: 30px 50px;
+        font-size: 9px;
+    }
+    .navbar2 .settings
+    {
+        margin: -15px 90px;
+    }
+    .navbar2 img {
+        height: 100px;
+        width: 100px;
+        margin: 10px 0px;
+    }
+    body
+    {
+        font-size: 15px;
+    }
+    .indexImage
+    {
+        height: auto;
+    }
+    .types .row .col p {
+        font-size: 15px;
+    }
+    .types a
+    {
+        font-size: 20px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 950px)
+{
+    .RowCurrentType
+    {
+        font-size: 10px;
+    }
+    .ColumnCurrentType
+    {
+
+        height: 170px;
+    }
+    .ColumnCurrentType .Text
+    {
+        margin: 0px;
+    }
+    .ColumnCurrentType .Image
+    {
+        height: 100px;
+    }
+    .ColumnCurrentType button
+    {
+        font-size: 10px;
+        height: 18px;
+    }
+    .ColumnCurrentType input
+    {
+        font-size: 10px;
+        height: 10px;
+        width: 15px;
+    }
+    .types a
+    {
+        height: 200px;
+    }
+}
+

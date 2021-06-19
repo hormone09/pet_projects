@@ -1,0 +1,69 @@
+﻿@model EditViewModel;
+
+<div class="container">
+    @if (ViewBag.EditProduct == false)
+    {
+        <h1>Выберите продукт для редактирования:</h1>
+        <div class="ListProduct">
+            @foreach (var el in Model.types)
+            {
+                <div>
+                    <h2>@el.type.normalName</h2>
+                    @foreach (var prod in el.CurrentProducts)
+                    {
+                        <p>@prod.desk</p>
+                        <p>@prod.price</p>
+                        <div class="EditButtons">
+                            <form action="EditProduct" method="get">
+                                <input type="hidden" name="number" value="@prod.id" />
+                                <button>Редактировать</button>
+                            </form>
+                            <form action="DeleteProduct" method="post">
+                                <input type="hidden" name="id" value="@prod.id" />
+                                <button>Удалить</button>
+                            </form>
+                        </div>
+                    }
+                </div>
+                
+            }
+        </div>
+    }
+    else
+    {
+        <div class="EditProduct">
+            <h1>Редактирование товара: </h1>
+            <div>
+                <form action="EditProduct" method="post">
+                    <div>
+                        <p> Название товара:</p>
+                        <input type="text" name="desk" value="@Model.currentProduct.desk" />
+                    </div>
+                    <div>
+                        <p> Название товара на транслите:</p>
+                        <input type="text" name="type" value="@Model.currentProduct.type" />
+                    </div>
+                    <div>
+                        <p> Параметр 1:</p>
+                        <input type="text" name="parametr1" value="@Model.currentProduct.parametr1" />
+                    </div>
+                    <div>
+                        <p> Параметр 2:</p>
+                        <input type="text" name="parametr2" value="@Model.currentProduct.parametr2" />
+                    </div>
+                    <div>
+                        <p> Стоимость: </p>
+                        <input type="text" name="price" value="@Model.currentProduct.price" />
+                    </div>
+                    <div>
+                        <p> Количество товара на складе:</p>
+                        <input type="text" name="avalib" value="@Model.currentProduct.avalib" />
+                    </div>
+
+                    <input type="hidden" name="id" value="@Model.currentProduct.id" />
+                    <button type="submit">Сохранить</button>
+                </form>
+            </div>
+        </div>
+    }
+</div>

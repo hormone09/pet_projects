@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFNKueB42i0GS2j1pCx8BgAAAAAACAAAAAAAQZgAAAAEAACAAAADjqx28sS6P1Xi62uHI46t9HSRv7CWk2sUlz0DRHxznRQAAAAAOgAAAAAIAACAAAAADqGtLxMZMXpk0JvOSDcDniOOuJcPH3Zsk+Bls9f8E+yAAAAC9zRwiiOTnkyTkgxbu2azpmVXPsZaSDR7jNPNcn8k07UAAAAD99B4FCWKL0jh16QVwWERoessv1EWM4158IfjLzWNZvPosMwp1KiEE5JqWABfJ+g3GtDr+D+NQ1W+HNuc2ulrU</EncryptedPassword>
+    <_PublishTargetUrl>ftp://TaviPavlodarKorobov.somee.com/www.TaviPavlodarKorobov.somee.com</_PublishTargetUrl>
+    <History>True|2021-04-10T17:42:12.1246218Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>02/12/2021 22:07:39</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>04/09/2021 00:52:52</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.Internal.dll">
+      <publishTime>01/23/2021 12:34:18</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Cryptography.KeyDerivation.dll">
+      <publishTime>01/23/2021 12:34:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll">
+      <publishTime>01/23/2021 12:34:28</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 23:24:48</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>01/14/2021 21:57:08</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>01/14/2021 21:57:24</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>01/14/2021 21:57:30</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>01/14/2021 21:58:04</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>11/26/2020 01:59:12</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Identity.Core.dll">
+      <publishTime>01/23/2021 12:34:26</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Identity.Stores.dll">
+      <publishTime>01/23/2021 12:34:28</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>05/18/2020 20:11:54</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/18/2019 23:39:24</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>10/18/2019 23:40:20</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>10/18/2019 23:41:02</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>10/18/2019 23:48:48</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>10/18/2019 23:43:40</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/20/2017 20:03:18</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 23:25:12</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:35:06</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 23:24:48</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 08:53:44</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 08:53:46</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/15/2019 08:37:04</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>12/12/2020 02:40:42</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>10/18/2019 23:38:18</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 08:37:36</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 08:37:42</publishTime>
+    </File>
+    <File Include="TAVI_Pavlodar.deps.json">
+      <publishTime>04/10/2021 23:37:45</publishTime>
+    </File>
+    <File Include="TAVI_Pavlodar.dll">
+      <publishTime>04/10/2021 23:37:41</publishTime>
+    </File>
+    <File Include="TAVI_Pavlodar.exe">
+      <publishTime>04/10/2021 23:37:41</publishTime>
+    </File>
+    <File Include="TAVI_Pavlodar.pdb">
+      <publishTime>04/10/2021 23:37:41</publishTime>
+    </File>
+    <File Include="TAVI_Pavlodar.runtimeconfig.json">
+      <publishTime>04/10/2021 23:25:05</publishTime>
+    </File>
+    <File Include="TAVI_Pavlodar.Views.dll">
+      <publishTime>04/10/2021 23:37:41</publishTime>
+    </File>
+    <File Include="TAVI_Pavlodar.Views.pdb">
+      <publishTime>04/10/2021 23:37:41</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>04/10/2021 23:37:45</publishTime>
+    </File>
+    <File Include="wwwroot/css/style.css">
+      <publishTime>04/10/2021 21:54:29</publishTime>
+    </File>
+    <File Include="wwwroot/img/body-back2.jpg">
+      <publishTime>03/16/2021 23:06:01</publishTime>
+    </File>
+    <File Include="wwwroot/img/cart.png">
+      <publishTime>04/05/2021 22:27:19</publishTime>
+    </File>
+    <File Include="wwwroot/img/door.png">
+      <publishTime>04/05/2021 22:54:23</publishTime>
+    </File>
+    <File Include="wwwroot/img/DSP.jpg">
+      <publishTime>03/27/2021 18:37:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/Laminat.jpg">
+      <publishTime>03/27/2021 18:39:05</publishTime>
+    </File>
+    <File Include="wwwroot/img/mebel1.jpg">
+      <publishTime>04/05/2021 23:25:46</publishTime>
+    </File>
+    <File Include="wwwroot/img/Paralon.jpg">
+      <publishTime>03/27/2021 18:37:02</publishTime>
+    </File>
+    <File Include="wwwroot/img/personal-area.jpg">
+      <publishTime>03/27/2021 15:54:39</publishTime>
+    </File>
+    <File Include="wwwroot/img/PersonalArea.jpg">
+      <publishTime>04/10/2021 15:12:24</publishTime>
+    </File>
+    <File Include="wwwroot/img/TaviLogo.png">
+      <publishTime>04/05/2021 21:09:02</publishTime>
+    </File>
+    <File Include="wwwroot/js/style.js">
+      <publishTime>03/31/2021 21:34:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,39 @@
+﻿@model SearchViewModel;
+
+<div class="container">
+    <div>
+        <h1>Продукты по запросу "@Model.search"</h1>
+        @if (Model.products.Count > 0)
+        {
+            
+            @foreach (var el in Model.products)
+            {
+                <div class="ColumnCurrentType">
+                        <div class="Image">
+                            <img src="https://i.ibb.co/cYdR098/Laminat.jpg" alt="Alternate Text" />
+                        </div>
+                        <div class="Text">
+                            <form action="/Home/AddToBasket/" method="post">
+                                <p>Название: @el.desk</p>
+                                <p>@el.parametr1</p>
+                                <p>@el.parametr2</p>
+                                <p>Цена: @el.price</p>
+                                <p>В наличии: @el.avalib шт.</p>
+                                <p>Укажите количество товара для покупки: </p>
+                                <input name="amount" value="1">
+                                <input type="hidden" name="id" value=@el.id>
+                                <input type="hidden" name="type" value=@el.type>
+                                <button type="submit">В корзину</button>
+                            </form>
+                        </div>
+                    </div>
+            }
+        }
+        else
+        {
+            <h1>Ничего нет</h1>
+        }
+    </div>
+    
+
+</div>

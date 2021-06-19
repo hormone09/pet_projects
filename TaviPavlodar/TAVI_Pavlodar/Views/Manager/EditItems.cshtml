@@ -1,0 +1,23 @@
+﻿@model EditViewModel;
+
+<div>
+    @foreach(TypeWithProducts el in Model.types)
+    {
+        <div >
+            <p>Раздел: @el.type.name</p>
+            <p>Удалить этот раздел</p>
+            <div>
+                Продукты этого раздела:
+                @if (el.CurrentProducts.Count > 0)
+                {
+                    @foreach (Product item in el.CurrentProducts)
+                    {
+                        <p>@item.desk</p>
+                        <p>@item.price</p>
+                    }
+                }
+                else { <h4>В данной категории товара нет</h4> }
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,44 @@
+﻿@model OrderViewModel;
+
+
+<div class="container">
+    <h1>ORDER</h1>
+    <form action="/Home/OrderPerfect" method="post">
+        <h4>Данные заказа:</h4>
+        <div>
+            <h3>Выбранный вами товар для совершения покупки:</h3>
+            @foreach (BasketItem el in Model.OrderItems)
+            {
+                <div>
+                    <p>@el.desk</p>
+                    <p>Количество: @el.amount</p>
+                    <p>Цена: @el.price</p>
+                </div>
+            }
+            <div>Общая стоимость заказа: @Model.OrderPrice</div>
+        </div>
+
+        <div><br/>Имя заказчика: @Model.OrderUserName</div>
+
+        <input type="hidden" name="OrderPrice" value=@Model.OrderPrice />
+        <input type="hidden" name="OrderUserName" value=@Model.OrderUserName />
+        <input type="hidden" name="OrderTime" value=@Model.OrderTime />
+        <input type="hidden" name="UserId" value=@Model.UserId />
+        <div class="loading">
+            <p>Укажите дату и время планируемой загрузки:</p>
+            <div>
+                <p>День:</p>
+                <input type="date" name="DateForLoading" value="@DateTime.Now.Date" />
+            </div>
+
+            <div>
+                <p>Время:</p>
+                <input type="time" name="TimeForLoading" value="" />
+            </div>
+
+            <button onclick="succes(0)" type="submit">Оформить заказ</button>
+            <p id="succes" class="succes">Заказ успешно оформлен!</p>
+        </div>
+
+    </form>
+</div>

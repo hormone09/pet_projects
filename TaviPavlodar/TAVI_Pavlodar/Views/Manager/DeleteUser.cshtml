@@ -1,0 +1,17 @@
+﻿@model List<User>;
+
+    <div class="container">
+        @foreach(var el in Model)
+        {
+            <div>
+                <p>Имя: @el.FirstName</p>
+                <p>Фамилия: @el.LastName</p>
+                <p>Логин: @el.UserName</p>
+                <p>Email: @el.Email</p>
+                <form action="/Manager/DeleteUser" method="post">
+                    <input type="hidden" name="id" value="@el.Id" />
+                    <button>Удалить пользователя</button>
+                </form>
+            </div>
+        }
+    </div>

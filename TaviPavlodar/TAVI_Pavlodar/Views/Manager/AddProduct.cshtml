@@ -1,0 +1,40 @@
+﻿@model List<ProductType>;
+
+    <div class="container">
+        <h1>Добавление нового товара: </h1>
+        <div class="AddProduct">
+            <form action="AddProduct" method="Post">
+                <div>
+                    <p>Укажите тип продукта: </p>
+                    <select name="typeId" size="1">
+                        
+                        @foreach (var el in Model)
+                        {
+                            <option name="typeId" value="@el.id">@el.normalName</option>
+                        }
+                    </select>
+                </div>
+                <div>
+                    <p> Укажите название товара:</p>
+                    <input type="text" name="desk" value="" />
+                </div>
+                <div>
+                    <p> Укажите параметр 1, название параметра, двоиточие, затем само значение</p>
+                    <input type="text" name="parametr1" value="" />
+                </div>
+                <div>
+                    <p> Укажите параметр 2, название параметра, двоиточие, затем само значение</p>
+                    <input type="text" name="parametr2" value="" />
+                </div>
+                <div>
+                    <p> Укажите стоимость</p>
+                    <input type="text" name="price" value="" />
+                </div>
+                <div>
+                    <p> Укажите количество заданного товара на складе</p>
+                    <input type="text" name="avalib" value="" />
+                </div>
+                <button type="submit">Добавить</button>
+            </form>
+        </div>
+    </div>

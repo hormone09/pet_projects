@@ -1,0 +1,37 @@
+﻿@model Purchase;
+
+<div class="container">
+    @if (Model == null)
+    {
+        <div>
+            <form action="SearchOrder" method="post">
+                <h1>Введите номер заказа: </h1>
+                <input type="text" name="id" value="" />
+                <button type="submit">Найти</button>
+                @if (ViewBag.IsNull)
+                {
+                    <p style="color: red">Заказа с таким номером нет!</p>
+                }
+            </form>
+        </div>
+    }
+    else
+    {
+        <div>
+            <p>Заказчик: @Model.nameOfClient</p>
+            <p>Заказчик: @Model.Status</p>
+            <p>Дата заказа: @Model.timeOfPurchaes</p>
+            <div>
+                Заказанный товар: 
+                @foreach(var el in Model.purchaesElements)
+                {
+                    <div>
+                        <p>@el.name</p>
+                        <p>@el.amount</p>
+                        <p>@el.price</p>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>

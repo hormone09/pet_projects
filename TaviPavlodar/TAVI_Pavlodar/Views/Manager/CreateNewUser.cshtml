@@ -1,0 +1,46 @@
+﻿@model CreateViewModel;
+
+
+<div class="container">
+    <h1>Добавление нового пакупателя на сайт компании</h1>
+    <div class="createUser">
+        <form action="CreateNewUser" method="post">
+            <div>
+                <div class="pole">
+                    <label>Имя</label>
+                    <input asp-for="FirstName" />
+                    <span asp-validation-for="FirstName"></span>
+                </div>
+                <div class="pole">
+                    <label>Фамилия</label>
+                    <input asp-for="LastName" />
+                    <span asp-validation-for="LastName"></span>
+                </div>
+
+                <div class="pole">
+                    <label>Телефонный номер:</label>
+                    <input asp-for="PhoneNumber" />
+                    <span asp-validation-for="PhoneNumber"></span>
+                </div>
+            </div>
+
+            <div>
+
+                <h2>Данные для авторизации:</h2>
+
+                <div class="pole">
+                    <label>Логин пользователя:</label>
+                    <input asp-for="Login" />
+                    <span asp-validation-for="Login"></span>
+                </div>
+
+                <div class="pole">
+                    <label>Пароль пользователя:</label>
+                    <input asp-for="Password" />
+                    <span asp-validation-for="Password"></span>
+                </div>
+                <button type="submit">Добавить</button>
+            </div>
+        </form>
+    </div>
+</div>

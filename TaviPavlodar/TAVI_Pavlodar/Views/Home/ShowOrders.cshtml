@@ -1,0 +1,33 @@
+﻿@model List<Purchase>;
+
+<div class="container">
+    @if (Model.Count < 1)
+    {
+        <h1>Пока нет ни одного заказа!</h1>
+    }
+    else
+    {
+        <div class="orders">
+            <h4>Активные заказы на нашем сайте</h4>
+            @foreach (Purchase pr in Model)
+            {
+                <div>
+                    <p><b>Дата совершения заказа:</b> @pr.timeOfPurchaes</p>
+                    <p><b>Статус:</b> @pr.Status</p>
+                    @*@foreach (PurchaesElement el in pr.purchaesElements)
+                    {
+                        <p>@el.name</p>
+                        <p>@el.amount</p>
+                        <p>@el.price</p>
+                    }*@
+                    <p><b>Стоимость:</b> @pr.finalyPrice</p>
+                    <form action="/" method="post">
+                        <button>Подробнее</button>
+                    </form>
+                </div>
+                
+            }
+        </div>
+    }
+
+</div>

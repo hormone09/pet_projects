@@ -1,0 +1,274 @@
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\appsettings.Development.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\appsettings.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.exe
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.deps.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.runtimeconfig.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.runtimeconfig.dev.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\ref\TAVI_Pavlodar.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.Views.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.Views.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Humanizer.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\Newtonsoft.Json.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\System.Runtime.Caching.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.csprojAssemblyReference.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.AssemblyInfoInputs.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.AssemblyInfo.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.csproj.CoreCompileInputs.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorAssemblyInfo.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorAssemblyInfo.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\staticwebassets\TAVI_Pavlodar.StaticWebAssets.Manifest.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\staticwebassets\TAVI_Pavlodar.StaticWebAssets.xml
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\scopedcss\bundle\TAVI_Pavlodar.styles.css
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.TagHelpers.input.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.TagHelpers.output.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorCoreGenerate.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Admin\Login.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Basket.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Company.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\CurrentType.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Order.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\PersonalArea.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\ShowAllLoadings.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\ShowOrders.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\ShowUserInfo.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\AddProduct.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\CheckOrders.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\CreateNewUser.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\EditItems.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\EditProduct.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\FindOrder.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Shared\_ClearLayout.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorTargetAssemblyInfo.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorTargetAssemblyInfo.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.Views.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.csproj.CopyComplete
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\ref\TAVI_Pavlodar.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.genruntimeconfig.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\appsettings.Development.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\appsettings.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.exe
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.deps.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.runtimeconfig.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.runtimeconfig.dev.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\ref\TAVI_Pavlodar.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.Views.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.Views.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Humanizer.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\Newtonsoft.Json.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\System.Runtime.Caching.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.csprojAssemblyReference.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.AssemblyInfoInputs.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.AssemblyInfo.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.csproj.CoreCompileInputs.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorAssemblyInfo.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorAssemblyInfo.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\staticwebassets\TAVI_Pavlodar.StaticWebAssets.Manifest.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\staticwebassets\TAVI_Pavlodar.StaticWebAssets.xml
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\scopedcss\bundle\TAVI_Pavlodar.styles.css
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.TagHelpers.input.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.TagHelpers.output.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorCoreGenerate.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Admin\Login.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Basket.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Company.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\CurrentType.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Order.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\PersonalArea.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Search.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\ShowAllLoadings.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\ShowOrders.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\ShowUserInfo.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\AddProduct.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\CheckOrders.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\CreateNewUser.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\DeleteUser.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\EditItems.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\EditProduct.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\FindOrder.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Shared\_ClearLayout.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorTargetAssemblyInfo.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorTargetAssemblyInfo.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.Views.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.csproj.CopyComplete
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\ref\TAVI_Pavlodar.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar БД\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.genruntimeconfig.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\appsettings.Development.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\appsettings.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.exe
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.deps.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.runtimeconfig.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.runtimeconfig.dev.json
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\ref\TAVI_Pavlodar.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.Views.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\TAVI_Pavlodar.Views.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Humanizer.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\Newtonsoft.Json.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\System.Runtime.Caching.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.csprojAssemblyReference.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.AssemblyInfoInputs.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.AssemblyInfo.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.csproj.CoreCompileInputs.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorAssemblyInfo.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorAssemblyInfo.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\staticwebassets\TAVI_Pavlodar.StaticWebAssets.Manifest.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\staticwebassets\TAVI_Pavlodar.StaticWebAssets.xml
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\scopedcss\bundle\TAVI_Pavlodar.styles.css
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.TagHelpers.input.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.TagHelpers.output.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorCoreGenerate.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Admin\Login.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Basket.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Company.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\CurrentType.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Order.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\PersonalArea.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\Search.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\ShowAllLoadings.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\ShowOrders.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Home\ShowUserInfo.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\AddProduct.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\CheckOrders.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\CreateNewUser.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\DeleteUser.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\EditItems.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\EditProduct.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Manager\FindOrder.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Shared\_ClearLayout.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorTargetAssemblyInfo.cache
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.RazorTargetAssemblyInfo.cs
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.Views.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.csproj.CopyComplete
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\ref\TAVI_Pavlodar.dll
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.pdb
+C:\Users\Владимир\Desktop\Заходи сюда чаще\Заходи сюда чаще\C#\VS\TAVI_Pavlodar with JS\TAVI_Pavlodar\obj\Release\net5.0\TAVI_Pavlodar.genruntimeconfig.cache

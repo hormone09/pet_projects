@@ -1,0 +1,94 @@
+﻿@model IndexViewModel;
+@*USER // USER USER // USER USER // USER USER // USER USER // USER*@
+@if (User.IsInRole("User"))
+{
+    <div class="indexImage">
+        <img src="~/img/mebel1.jpg" alt="" />
+    </div>
+    <div class="types">
+        <h1>Наши товары:</h1>
+        <div class="row">
+            @foreach (var el in Model.AllTypes)
+            {
+                <a href="/Home/CurrentType/?id=@el.id">
+                    <div class="col">
+                        <div class="fon">
+                            <img src=@el.ImgPath alt="" />
+                        </div>
+                        <p>@el.normalName</p>
+                    </div>
+                </a>
+            }
+        </div>
+    </div>
+    <h1>Может быть интересно:</h1>
+    <div class="HaveRow">
+        @for (int i = 0; i < 5; i++)
+        {
+            <a href="/Home/CurrentType/?id=@Model.FavoriteProducts[i].typeId">
+                <div class="HaveColumn">
+                    <div class="fon">
+                        <img src=@Model.ImgPaths[i] alt="" />
+                    </div>
+                    <div>
+                        <p>Название: @Model.FavoriteProducts[i].desk</p>
+                        <p>Параметры: @Model.FavoriteProducts[i].parametr1, @Model.FavoriteProducts[i].parametr2</p>
+                    </div>
+                    <h2>Подробнее</h2>
+                </div>
+            </a>
+        }
+    </div>
+}
+
+
+else if (User.IsInRole("Admin"))
+{
+    <p>Админ</p>
+}
+
+else if (User.IsInRole("Manager"))
+{
+        <div class="types manager">
+            <div class="row">
+                <a href="/Manager/CreateNewUser">
+                    <div class="col">
+                        Добавить нового пользователя
+                    </div>
+                </a>
+
+                <a href="/Manager/DeleteUser">
+                    <div class="col">
+                        Удалить пользователя
+                    </div>
+                </a>
+
+                <a href="/Manager/AddProduct">
+                    <div class="col">
+                        Добавить новый товар
+                    </div>
+                </a>
+            </div>
+
+            <div class="row">
+                <a href="/Manager/EditProduct">
+                    <div class="col">
+                        Редактировать/Удалить имеющийся товар
+                    </div>
+                </a>
+
+                <a href="/Manager/CheckOrders">
+                    <div class="col">
+                        Посмотреть заказы, требющиеся рассмотрения
+                    </div>
+                </a>
+
+                <a href="/Manager/FindOrder/">
+                    <div class="col">
+                        Найти конкретный заказ
+                    </div>
+                </a>
+            </div>
+        </div>
+}
+

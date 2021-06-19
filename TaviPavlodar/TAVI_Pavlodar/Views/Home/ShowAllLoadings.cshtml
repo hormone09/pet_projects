@@ -1,0 +1,45 @@
+﻿ @model List<Loading>;
+
+@{ Layout = "_Layout";}
+
+<div class="container">
+        <h4>Планируемые загрузки товара на сегодняшнее число (@DateTime.Now.ToShortDateString())</h4>
+        <div class="LoadingRow">
+            <div class="TimeColumn">
+               <h3>Время планируемой загрузки. </h3>
+            </div>
+            <div class="NameColumn">
+                <h3>Имя клиента, автомобиль</h3>
+            </div>
+            <div class="TypesColumn">
+                <h3>Загружаемый товар</h3>
+            </div>
+            <div class="IntervalColumn">
+               <h3>Примерное время загрузки</h3>
+            </div>
+        </div>
+        @foreach (var el in Model)
+        {
+            <div class="LoadingRow">
+
+                <div class="TimeColumn">
+                    <p>@el.TimeForLoading.Hour : @el.TimeForLoading.Minute</p>
+                </div>
+
+                <div class="NameColumn">
+                    <p>@el.FullnameOfUser</p>
+                </div>
+
+                <div class="TypesColumn">
+                    @foreach(var type in el.Products)
+                    {
+                        <p>Товар/количесвто: @type.desk,@type.amount</p>
+                    }
+                </div>
+
+                <div class="IntervalColumn">
+                    <p>Загрузка займет около: @el.MinutesForLoading минут</p>
+                </div>
+            </div>
+        }
+</div>

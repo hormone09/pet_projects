@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>ТАВИ павлодар</title>
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar1">
+            <div>
+                <a href="/Home/Index">Караганда</a>
+            </div>
+            <div>
+                <a style="color: dodgerblue" href="tel:(87076405699)">8-(707)-640-56-99</a>
+                <a href="/Home/Company">О нашей компании</a>
+            </div>
+        </div>
+        <div class="navbar2">
+            <div class="logo">
+                <a href="/Home/Index/">
+                    <img src="~/img/TaviLogo.png" alt="" />
+                </a>
+            </div>
+            <div onclick="openMenu()" class="menu">
+                <button id="searchBtn" class="between">
+                    <p>МЕНЮ</p>
+                </button>
+            </div>
+            <div id="links" class="search-links">
+                <a href="/Home/PersonalArea">Личный кабинет</a>
+                <a href="/Home/ShowAllLoadings">Загрузки сегодня</a>
+            </div>
+            <div id="search" class="search">
+                <form action="/Home/Search" method="get">
+                    <div class="input">
+                        <input type="text" name="query" value="" placeholder="Введите запрос" />
+                    </div>
+                    <div class="button">
+                        <button type="submit">Найти</button>
+                    </div>
+                </form>
+            </div>
+            <div class="Icons">
+                <div class="hello">
+                    <h2>Здраствуйте, @User.Identity.Name</h2>
+                </div>
+                <div class="settings">
+                    <a href="/Admin/LogOff">
+                        <img src="~/img/door.png" alt="Alternate Text" />
+                    </a>
+                    <a href="/Home/Basket">
+                        <img src="~/img/cart.png" alt="Alternate Text" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <content>
+        @RenderBody()
+    </content>
+
+    <script src="~/js/style.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+﻿@model CheckOrdersManagerViewModel;
+
+<div class="container">
+    <h1>Заказы, требующие рассмотрения: </h1>
+    <div class="row">
+        <div class="column4">
+            <h2>@Model.TypesOfStatus[1]</h2>
+            @foreach (var el in Model.status1)
+            {
+                <div class="intoColumn">
+                    <p>Имя клиента: @el.nameOfClient</p>
+                    <p>Стоимость заказа: @el.finalyPrice</p>
+                    <p>Время заказа: @el.timeOfPurchaes</p>
+                    <p>Статус заказа: @el.Status</p>
+
+                    <div class="buttons">
+                        <form action="EditOrderStatus" method="post">
+                            <input type="hidden" name="id" value=@el.id />
+                            <button type="submit">Изменить статус</button>
+                        </form>
+                        <form action="EditOrderStatus" method="post">
+                            <input type="hidden" name="IsApproved" value="false" />
+                            <input type="hidden" name="id" value=@el.id />
+                            <button type="submit">Отказать</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="column4">
+            <h2>@Model.TypesOfStatus[2]</h2>
+            @foreach (var el in Model.status2)
+            {
+                <div class="intoColumn">
+                    <p>Имя клиента: @el.nameOfClient</p>
+                    <p>Стоимость заказа: @el.finalyPrice</p>
+                    <p>Время заказа: @el.timeOfPurchaes</p>
+                    <p>Статус заказа: @el.Status</p>
+
+                    <div class="buttons">
+                        <form action="EditOrderStatus" method="post">
+                            <input type="hidden" name="id" value=@el.id />
+                            <button type="submit">Изменить статус</button>
+                        </form>
+                        <form action="EditOrderStatus" method="post">
+                            <input type="hidden" name="IsApproved" value="false" />
+                            <input type="hidden" name="id" value=@el.id />
+                            <button type="submit">Отказать</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="column4">
+            <h2>@Model.TypesOfStatus[3]</h2>
+            @foreach (var el in Model.status3)
+            {
+                <div class="intoColumn">
+                    <p>Имя клиента: @el.nameOfClient</p>
+                    <p>Стоимость заказа: @el.finalyPrice</p>
+                    <p>Время заказа: @el.timeOfPurchaes</p>
+                    <p>Статус заказа: @el.Status</p>
+
+                    <div class="buttons">
+                        <form action="EditOrderStatus" method="post">
+                            <input type="hidden" name="id" value=@el.id />
+                            <button type="submit">Изменить статус</button>
+                        </form>
+                        <form action="EditOrderStatus" method="post">
+                            <input type="hidden" name="IsApproved" value="false" />
+                            <input type="hidden" name="id" value=@el.id />
+                            <button type="submit">Отказать</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="column4">
+            <h2>@Model.TypesOfStatus[0]</h2>
+            @foreach (var el in Model.status0)
+            {
+                <div class="intoColumn">
+                    <p>Имя клиента: @el.nameOfClient</p>
+                    <p>Стоимость заказа: @el.finalyPrice</p>
+                    <p>Время заказа: @el.timeOfPurchaes</p>
+                    <p>Статус заказа: @el.Status</p>
+
+                    <div class="buttons">
+                        <form action="EditOrderStatus" method="post">
+                            <input type="hidden" name="id" value=@el.id />
+                            <button type="submit">Изменить статус</button>
+                        </form>
+                        <form action="EditOrderStatus" method="post">
+                            <input type="hidden" name="IsApproved" value="false" />
+                            <input type="hidden" name="id" value=@el.id />
+                            <button type="submit">Отказать</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

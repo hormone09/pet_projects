@@ -1,0 +1,44 @@
+﻿@model LoginViewModel;
+
+@{
+    Layout = "_ClearLayout";
+}
+<div class="BgImg">
+    <img src="https://images.wallpaperscraft.ru/image/komnata_divan_kovry_mebel_kresla_televizor_polki_interer_68098_1920x1080.jpg" alt="Alternate Text" />
+</div>    
+
+<div class="BgAuthorize">
+    <div class="AuthorizeText">
+        <p>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>ТАВИ-Павлодар</b> - </span>
+            одна из самых крупных фирм, производящих все составляющие для
+            мебели. У нас вы можете найти абсолютно все, начиная от Ламината, заканчивая
+            шурупами и мелкими кронштейнами, а так же ткани и матрацы.
+        </p>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Для входа на наш сайт вам необходимо обратится в офис, находящийся по адрессу: <i>Пригородная 1А</i>.
+            На нашем сайте вы сможете ознакомится со всеми нашеми товарами, а так же совершить заказ!
+        </p>
+    </div>
+
+    <div class="Authorize">
+        <h1>Добро пожаловать!</h1>
+        <form asp-controller="Admin" asp-action="Login" method="post">
+            <div>
+                <p>Логин:</p>
+                <input asp-for="Login" />
+            </div>
+            <span class="Validator" asp-validation-for="Login"></span>
+
+            <div>
+                <p>Пароль:</p>
+                <input type="password" asp-for="Password" />
+            </div>
+            <div>
+                <span class="Validator" asp-validation-for="Password"></span>
+            </div>
+
+            <button>Войти</button>
+        </form>
+    </div>
+</div>

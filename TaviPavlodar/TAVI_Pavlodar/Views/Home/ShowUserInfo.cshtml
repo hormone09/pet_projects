@@ -1,0 +1,41 @@
+﻿@model User;
+
+<div class="container">
+    <div>
+        @if (ViewBag.Edit != true)
+        {
+            <h1>Информация о пользователе: </h1>
+            <p>Имя: @Model.FirstName</p>
+            <p>Фамилия: @Model.LastName</p>
+            <p>Email: @Model.Email</p>
+            <p>Телефонный номер: @Model.PhoneNumber</p>
+
+            <form action="/Home/ShowUserInfo" method="get">
+                <input type="hidden" name="edit" value="true" />
+                <button type="submit">Редактировать профиль</button>
+            </form>
+        }
+        else
+        {
+            <form action="/Home/EditUserInfo/" method="post">
+                <h1>Редактирование информации о пользователе: </h1>
+                <p>
+                    Имя: <input type="text" name="FirstName" value=@Model.FirstName />
+                </p>
+                <p>
+                    Фамилия: <input type="text" name="LastName" value=@Model.LastName />
+                </p>
+                <p>
+                    Email: <input type="email" name="Email" value=@Model.Email />
+                </p>
+                <p>
+                    Телефонный номер: <input type="tel" name="PhoneNumber" value=@Model.PhoneNumber />
+                </p>
+
+                <input type="hidden" name="Id" value=@Model.Id />
+
+                <button type="submit">Сохранить</button>
+            </form>
+        }
+    </div>
+</div>
