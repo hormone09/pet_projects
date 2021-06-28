@@ -1,0 +1,27 @@
+﻿@using Portal.Models.ViewModels;
+@model RegisterViewModel;
+
+@{
+    Layout = "~/Views/Shared/_Clear.cshtml";
+}
+
+<form style="width: 500px; height: 500px;" action="/Account/Register" method="post">
+
+    <h1>Регистрация</h1>
+    <div class="info">
+        <p><span>Имя:</span> @Model.name</p>
+        <p><span>Фамилия:</span> @Model.sename</p>
+        <p><span>Почтовый адресс:</span>  @Model.email</p>
+    </div>
+    <input type="hidden" name="name" value="@Model.name"/>
+    <input type="hidden" name="sename" value="@Model.sename"/>
+    <input type="hidden" name="email" value="@Model.email"/>
+    <input class="user" type="text" name="login" placeholder="логин" />
+    <input class="pass" type="password" name="password" placeholder="пароль" />
+    <input class="pass" type="password" name="password2" placeholder="повторите пароль" />
+    <input type="hidden" name="personalUrl" value=@Model.personalUrl />
+    <input class="btn" type="submit" value="ВОЙТИ" />
+
+    <hr style="background-color : #bebebe;" />
+    <hr style="background-color : #FFF; " />
+</form>

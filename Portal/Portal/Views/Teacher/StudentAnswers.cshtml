@@ -1,0 +1,82 @@
+﻿@model AnswersViewModel;
+
+@{
+    Layout = "~/Views/Shared/_TeacherLayout.cshtml";
+}
+
+<div class="content">
+    <div class="course-header">
+        <h2><span>Предмет:</span> @Model.courseName</h2>
+        <h2><span>Группа:</span> @Model.groupName</h2>
+        <h2><span>Тема урока:</span> @Model.subject.heading</h2>
+        <h2><span>Задание:</span> @Model.subject.task</h2>
+        <h2><span>Срок cдачи:</span> @Model.subject.timeBorderForAnswer</h2>
+    </div>
+    <div class="container">
+        <div>
+            <h4>Ответы студентов на задание:</h4>
+            <div style="font-weight: bold" class="flex-box subject-answers">
+                <div style="width: 170px; text-align: center;">
+                    <h2>№ п/п</h2>
+                    @for(int i=0; i<Model.answers.Count; i++)
+                    {
+                        <p>@i</p>
+                    }
+                </div>
+                <div>
+                    <h2>Имя студента</h2>
+                    @foreach (var answer in Model.answers)
+                    {
+                        <p>@answer.student.name @answer.student.sename</p>
+                    }
+                </div>
+                <div>
+                    <h2>Ответ</h2>
+                    @foreach (var answer in Model.answers)
+                    {
+                        if (answer.answer != null)
+                        {
+                            <p>@answer.answer.text</p>
+                        }
+                        else
+                        {
+                            <p>Ответ не добавлен</p>
+                        }
+                    }
+                </div>
+                <div>
+                    <h2>Результаты</h2>
+                    @foreach (var answer in Model.answers)
+                    {
+                        if (answer.answer == null || answer.answer.mark == null)
+                        {
+                            <p>Оценка не выставленна!</p>
+                        }
+                        else
+                        {
+                            <p>Оценка: @answer.answer.mark.valueOfMark</p>
+                        }
+                    }
+                </div>
+                <div style="border: none;">
+                    @foreach (var answer in Model.answers)
+                    {
+                        if (answer.answer != null && answer.answer.mark == null)
+                        {
+                            <form id="addMark"action="" method="post">
+                            <div>
+                                <input type="text" name="mark" value="" />
+                                <input type="hidden" name="studentNumber" value="@answer.student.id" />
+                                <input type="hidden" name="answerNumber" value="@answer.answer.id" />
+                            </div>
+                            <div>
+                                <input type="button" onclick="sendForm('addMark')" value="Оценнить" />
+                            </div>
+                        </form>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

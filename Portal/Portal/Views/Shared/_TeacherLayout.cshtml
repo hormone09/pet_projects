@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="~/js/jQuery.js"></script>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="info">
+            <img class="logo" src="~/img/logo.png" alt="">
+            <div class="text">
+                <h3 id="navbar-name"></h3>
+                <h4 id="navbar-group"></h4>
+            </div>
+        </div>
+        <div class="links">
+            <ul>
+                <li> 
+                    <a href="/Teacher/PersonalArea">Личный кабинет</a> 
+                </li>
+                <li>
+                    <a onclick="navbarShow('subjects-today', 1)" href="#">Пары сегодня</a>
+                    <div id="subjects-today" class="hidden-vertical-block">
+                    </div>
+                </li>
+                <li>
+                    <div class="flex-box">
+                        <a onclick="navbarShow('notifications', 4)" href="#">Уведомления</a>
+                        <p id="count" class="notificationsCount"></p>
+                        <a onclick="deleteNotifications()" href="#">
+                            <img style="height: 23px; width: 23px;" src="~/img/rubbish.png" alt="Alternate Text" />
+                        </a>
+                    </div>
+                    <div id="notifications" class="notifications hidden-vertical-block">
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="icons">
+            <a href="https://www.instagram.com/kgu_kptk.krg/"><img src="~/img/instagram.png" alt=""></a>
+            <a href="https://kvptk.edu.kz/ru"><img src="~/img/web.png" alt=""></a>
+            <a href="/Account/LogOff"><img src="~/img/LogOff.png" alt=""></a>
+        </div>
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="~/js/animation.js"></script>
+    <script src="~/js/server-Teacher.js" charset="utf-8"></script>
+</body>
+</html>

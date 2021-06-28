@@ -1,0 +1,41 @@
+﻿
+@{ 
+    Layout = "_AdministrationLayout";
+}
+<div class="admin-navbar">
+    <h1>Это панель администрирования серивиса "Портал"</h1>
+</div>
+<div>
+    <a href="/Administration/AddPerson">Регистрация нового пользователя</a>
+</div>
+
+<div class="container">
+    <div class="update-block newGroup">
+        <h2>Добавление новой группы:</h2>
+        <form id="addGroup" name="addGroup" action="" method="post">
+            <p>Название группы: <input type="text" name="gName" value="" /></p>
+            <p>Введите данные данные куратора группы:</p>
+            <input type="text" name="tName" value="" placeholder="Имя" />
+            <input type="text" name="tSename" value="" placeholder="Фамилия" />
+            <input type="button" onclick="sendForm('addGroup')" value="Добавить группу" />
+        </form>
+    </div>
+    <div class="update-block newGroup">
+        <h2>Добовление нового курса:</h2>
+        <form id="addCourse" name="addCourse" action="" method="post">
+            <p>Название курса: <input type="text" name="courseName" value="" /></p>
+            <p>Название группы: <input type="text" name="groupName" value="" /></p>
+            <p>Имя преподавателя: <input type="text" name="teacherName" value="" /></p>
+            <p>Количество запланированных атестаций: <input type="text" name="numbersBorders" value="" /></p>
+            <input type="button" onclick="sendForm('addCourse')" value="Добавить курс" />
+        </form>
+    </div>
+    <div class="update-block addStudent">
+        <h2>Добовление студента в группу:</h2>
+        <form id="addStudentToGroup" name="addStudentToGroup" action="" method="post">
+            <p>Почтовый ящик студента: <input type="text" name="email" value="" /></p>
+            <p>Название группы: <input type="text" name="groupName" value="" /></p>
+            <input type="button" onclick="sendForm('addStudentToGroup')" value="Добавить курс" />
+        </form>
+    </div>
+</div>

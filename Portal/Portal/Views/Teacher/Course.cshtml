@@ -1,0 +1,113 @@
+﻿@model CourseViewModel;
+
+@{
+    Layout = "~/Views/Shared/_TeacherLayout.cshtml";
+}
+
+    <div class="content">
+        <div class="flex-box course-header">
+            <div class="forms">
+                <h3><span>Курс: </span>@Model.courseName</h3>
+                <p><a href="#" onclick="edit('border', 1)">Добавить период</a></p>
+                <div id="border" class="hiddenForm">
+                    <form id="addBorder" action="" method="post">
+                        <p>
+                            Временные рамки: С <input type="date" name="begin" />
+                            по <input type="date" name="finish" />
+                        </p>
+                        <p>Количество запланированных пар: <input type="text" name="pairs" value="" /></p>
+                        <input type="hidden" name="courseNumber" value="@Model.courseId" />
+                        <p><input class="button" type="button" onclick="sendForm('addBorder')" value="Отправить" /></p>
+                    </form>
+                </div>
+                @if (Model.activeBorder != null)
+                {
+                    <p><a id="form" href="#" onclick="edit('subject', 2)">Добавить учебный час</a></p>
+                    <div class="hiddenForm" id="subject">
+                        <form id="addSubject" action="" method="post">
+                            <p>Заголовок/Тема: <input type="text" name="heading" /></p>
+                            <p>Задание: <input type="text" name="task" /></p>
+                            <p>Дата проведения: <input type="date" name="dateBegin" value="" /></p>
+                            <p>Начало: <input type="time" name="timeBegin" value="" /></p>
+                            <p>Дата для выполнения: <input type="date" name="timeForAnswer" value="" /></p>
+                            <input type="hidden" name="borderNumber" value="@Model.activeBorder.id" />
+                            <p><input class="button" type="button" onclick="sendForm('addSubject')" value="Отправить" /></p>
+                        </form>
+                    </div>
+                }
+
+
+            </div>
+            <div class="students">
+                <h3><span>Количество студентов:</span> @Model.students.Count</h3>
+                <h3>Студенты, записанные на этот курс:</h3>
+                @foreach (var student in Model.students)
+                {
+                    <p>@student.name  @student.sename</p>
+                }
+            </div>
+        </div>
+        <div class="container">
+
+            @if (Model.activeBorder != null)
+            {
+                <div>
+                    <h2>Сейчас идет @Model.activeBorder.name период.</h2>
+                    <div class="active subject">
+                        @if (Model.subjectToday != null)
+                        {
+                            <h4><span>Сегодняшнее занятие:</span></h4>
+                            <div>
+                                <p><span>Тема:</span>@Model.subjectToday.heading</p>
+                                <p><span>Задание:</span>@Model.subjectToday.task</p>
+                                <p><span>Дата проведения:</span> @Model.subjectToday.date.ToShortDateString()</p>
+                            </div>
+                        }
+                        else
+                        {
+                            <h4>Сегодня а этом курсе нет пар!</h4>
+                        }
+                    </div>
+                    <div>
+                        <h4>Другие занятия на этом курсе: </h4>
+                        @foreach (var subject in Model.activeBorder.subjects)
+                        {
+                            <div class="flex-box subject">
+                                <div class="task">
+                                    <p><span style="color: #b311aa">Тема:</span>@subject.heading</p>
+                                    <p><span style="color: #b311aa">Задание:</span>@subject.task</p>
+                                    <p><span style="color: #b311aa">Время проведения:</span>@subject.date.ToLongDateString() @subject.time</p>
+                                    <p><span style="color: #b311aa">День сдачи:</span>@subject.timeBorderForAnswer.ToLongDateString()</p>
+                                </div>
+                                <div class="answer">
+                                    <p>
+                                        @if (subject.answers.Count > 0)
+                                        {
+                                            <span>
+                                                <a href="/Teacher/StudentAnswers/?subjectNumber=@subject.id">
+                                                    Посмотреть ответы на задание
+                                                </a>
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span>Студенты еще не добавили задание!</span>
+                                        }
+                                    </p>
+                                    <form id="delete" action="/" method="post">
+                                        <input type="hidden" name="subjectNumber" value="@subject.id" />
+                                        <span><a onclick="sendForm('delete')" href="#">Удалить</a></span>
+                                    </form>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+            }
+            else
+            {
+                <p>На данный момент на этом курсе не ведутся занятия!</p>
+            }
+        </div>
+    </div>

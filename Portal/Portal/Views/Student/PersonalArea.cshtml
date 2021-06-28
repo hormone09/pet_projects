@@ -1,0 +1,221 @@
+﻿@using Portal.Models.ViewModels;
+@model PersonalAreaViewModel;
+
+@{
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+
+<div class="content">
+    <div class="head info">
+        <div class="img">
+            <img src="@Model.imagePath" alt="">
+            <a style="color: gray; border-bottom: 1px dashed gray; margin: 15px 10px;" onclick="navbarShow('upload',4)" href="#">
+                Редактировать фото
+            </a>
+            <form style="display: none;" id="upload" action="/Account/UploadImage" method="post" enctype="multipart/form-data">
+                <input type="file" name="userImage" />
+                <input type="submit"  value="Загрузить" />
+            </form>
+        </div>
+        <div class="text">
+            <p>@Model.studentName</p>
+            <p>Дата рождения: @Model.dayOfBirthday</p>
+            @if (Model.IsHasGroup == true)
+            {
+                <p>Группа: @Model.groupName</p>
+            }
+            else
+            {
+                <p>На данный момент вы не состоите в группе!</p>
+            }
+        </div>
+        <div class="icons">
+            @* TODO: *@
+            <div>
+                <h1>@ViewBag.NumberCourses</h1>
+                <p>Курсы</p>
+            </div>
+            <div>
+                <h1>@ViewBag.NumberSubjects</h1>
+                <p>Задания</p>
+            </div>
+            <div>
+                <h1>@ViewBag.NumberAnswers</h1>
+                <p>Завершенные задания</p>
+            </div>
+        </div>
+    </div>
+    <div class="rele">
+        <a class="rele-link" href="#" onclick="releAnimation('courses')">Курсы</a>
+        <a class="rele-link" href="#" onclick="releAnimation('marks')">Оценки</a>
+        <a class="rele-link" href="#" onclick="releAnimation('answers')">Ответы на задания</a>
+        <a class="rele-link" href="#" onclick="releAnimation('schedule')">Расписание</a>
+    </div>
+    @if (Model.IsHasGroup)
+    {
+        <div class="container">
+            <div id="courses" class="courses">
+                @if (Model.courses.Count() > 0)
+                {
+                    @foreach (var course in Model.courses)
+                    {
+                        <a href="/Student/Course/?courseNumber=@course.id">
+                            <div class="item">
+                                <h2>@course.name</h2>
+                                @if (course.teacher != null)
+                                {
+                                    <p>Преподаватель: @course.teacher.name @course.teacher.sename</p>
+                                }
+                                else
+                                {
+                                    <p>Преподаватель не назначен</p>
+                                }
+                                @if (course.activBorder != null)
+                                {
+                                    <p>В данный момент проводятся занятия!</p>
+                                }
+                                else
+                                {
+                                    <p>В данный момент занятия не проводятся.</p>
+                                }
+                            </div>
+                        </a>
+                    }
+                }
+                else
+                {
+                    <h2>У вас пока нет курсов :(</h2>
+                }
+            </div>
+
+            <div id="chats" class="frienchatsds">
+                
+            </div>
+
+            <div id="marks" class="hidden-block marks">
+                <h1>Оценки за атестации:</h1>
+                <div class="flex-box ">
+                    @foreach (var course in Model.courses)
+                    {
+                        <div class="course-with-answer">
+                            <h3><span>Предмет:</span> @course.name</h3>
+                            @if (course.finishedBorders.Count > 0)
+                            {
+                                for (int i = 0; i < course.finishedBorders.Count; i++)
+                                {
+                                    if (course.finishedBorders[i].marks.Count > 0)
+                                    {
+                                        <p>
+                                            Оценка по @i атестации:
+                                            @course.finishedBorders[i].marks[0];
+                                        </p>
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                <h4>Пока нет пройденных атестаций!</h4>
+                            }
+                        </div>
+                    }
+
+                </div>
+            </div>
+
+            <div id="answers" class="hidden-block answers">
+                <h1>Выполненные задания в последней атестации:</h1>
+                <div class="flex-box">
+                    @if (Model.IsHasGroup != false && Model.courses != null)
+                    {
+                        @foreach (var course in Model.courses)
+                        {
+                            <div class="flex-box course-with-answer">
+                                <h3><span>Предмет:</span> @course.name</h3>
+                                <div class="course-answers">
+                                    @if (course.activBorder != null)
+                                    {
+                                        @foreach (var subject in course.activBorder.subjects)
+                                        {
+                                            @if (subject.answers != null && subject.answers.Count() > 0)
+                                            {
+                                                <div class="answer-value">
+                                                    <p>Тема: @subject.heading</p>
+                                                    <p>Задание: @subject.task</p>
+                                                    <p>Ваш ответ: @subject.answers[0].text</p>
+                                                    @if (subject.answers[0].mark != null)
+                                                    {
+                                                        <p>Оцена: @subject.answers[0].mark.valueOfMark</p>
+                                                    }
+                                                    else
+                                                    {
+                                                        <p>Не оцененно!</p>
+                                                    }
+                                                </div>
+                                            }
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <p>На данном курсе сейчас не проходят занятия!</p>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+
+            <div id="schedule" class="hidden-block schedule">
+                <div>
+                    <h3><span>Числитель:</span></h3>
+                    @if (Model.numerator != null)
+                    {
+                        <div class="flex-box">
+                            @foreach (var day in Model.numerator.days)
+                            {
+                                <div>
+                                    <h4>@day.name</h4>
+                                    <p><span>@day.firstCourseName</span></p>
+                                    <p>Начало: @day.firstTime</p>
+                                    <p>@day.secondCourseName</p>
+                                    <p>Начало: @day.secondTime</p>
+                                    <p>@day.thirdCourseName</p>
+                                    <p>Начало: @day.thirdTime</p>
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <h4>Расписание пока не заданно куратором!</h4>
+                    }
+                </div>
+                <div>
+                    <h3><span>Знаменатель:</span></h3>
+                    @if (Model.denominator != null)
+                    {
+                        <div class="flex-box">
+                            @foreach (var day in Model.numerator.days)
+                            {
+                                <div>
+                                    <h4>@day.name</h4>
+                                    <p><span>@day.firstCourseName</span></p>
+                                    <p>Начало: @day.firstTime</p>
+                                    <p>@day.secondCourseName</p>
+                                    <p>Начало: @day.secondTime</p>
+                                    <p>@day.thirdCourseName</p>
+                                    <p>Начало: @day.thirdTime</p>
+                                </div>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        <h4>Расписание пока не заданно куратором!</h4>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,19 @@
+﻿@using Portal.Models.ViewModels;
+@model LoginViewModel;
+
+@{
+    Layout = "~/Views/Shared/_Clear.cshtml";
+}
+
+<form action="/Account/Login" method="post">
+
+    <h1>Войти</h1>
+    <input class="user" type="text" name="login" placeholder="Логин" />
+    <p class="validate">@Model.validatorForLogin</p>
+    <input class="pass" type="password" name="password" placeholder="Пароль" />
+    <p class="validate">@Model.validatorForPassword</p>
+    <input class="btn" type="submit" value="ВОЙТИ" />
+
+    <hr style="background-color : #bebebe;" />
+    <hr style="background-color : #FFF; " />
+</form>

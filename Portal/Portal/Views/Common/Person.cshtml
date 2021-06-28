@@ -1,0 +1,13 @@
+﻿@using Portal.Models.ViewModels;
+@model PersonViewModel;
+
+<div>
+    <p>Имя: @Model.name</p>
+    <p>Возраст: @Model.age</p>
+    <p>Группа: @Model.groupName</p>
+    <p>Количество курсов: @Model.coursesCount</p>
+    <form action="/Student/AddFriend" method="post">
+        <button>Добавить в друзья</button>
+        <input type="hidden" name="studentNumber" value="@Model.id" />
+    </form>
+</div>

@@ -1,0 +1,155 @@
+﻿@model TeacherGroupViewModel;
+
+@{
+    Layout = "~/Views/Shared/_TeacherLayout.cshtml";
+}
+<a href="#">content</a>
+<div class="content">
+    <div class="flex-box course-header">
+        @if (Model.IsHasGroup)
+        {
+            <div style="width: 30%;">
+                <h3><span>Название группы:</span> @Model.groupName</h3>
+                <h3><span>Количество студентов:</span> @Model.numbersStudents</h3>
+            </div>
+            <div style="width: 50%;">
+                <h3>Студенты в вашей группе:</h3>
+                @foreach (var student in Model.students)
+                {
+                    <p>Имя: @student.name @student.sename</p>
+                }
+            </div>
+        }
+    </div>
+            <div class="container">
+                @if (Model.IsHasGroup)
+                {
+                <div>
+                    @if (Model.IsGroupHasShledue)
+                    {
+                        <h3>Расписание</h3>
+                        <div>
+                            <h3><span>Числитель:</span></h3>
+                            @if (Model.numerator != null)
+                            {
+                                <div class="flex-box">
+                                    @foreach (var day in Model.numerator.days)
+                                    {
+                                        <div>
+                                            <h4>@day.name</h4>
+                                            <p><span>@day.firstCourseName</span></p>
+                                            <p>Начало: @day.firstTime</p>
+                                            <p>@day.secondCourseName</p>
+                                            <p>Начало: @day.secondTime</p>
+                                            <p>@day.thirdCourseName</p>
+                                            <p>Начало: @day.thirdTime</p>
+                                        </div>
+                                    }
+                                </div>
+                            }
+                            else
+                            {
+                                <h4>Расписание пока не заданно куратором!</h4>
+                            }
+                        </div>
+                        <div>
+                            <h3><span>Знаменатель:</span></h3>
+                            @if (Model.denominator != null)
+                            {
+                                <div class="flex-box">
+                                    @foreach (var day in Model.numerator.days)
+                                    {
+                                        <div>
+                                            <h4>@day.name</h4>
+                                            <p><span>@day.firstCourseName</span></p>
+                                            <p>Начало: @day.firstTime</p>
+                                            <p>@day.secondCourseName</p>
+                                            <p>Начало: @day.secondTime</p>
+                                            <p>@day.thirdCourseName</p>
+                                            <p>Начало: @day.thirdTime</p>
+                                        </div>
+                                    }
+                                </div>
+                            }
+                            else
+                            {
+                                <h4>Расписание пока не заданно куратором!</h4>
+                            }
+                        </div>
+                    }
+                    else
+                    {
+                        if (Model.denominator != null)
+                        {
+                            <h3>Знаменатель задан</h3>
+                        }
+                        else if(Model.numerator != null)
+                        {
+                            <h3>Чилстиель задан!</h3>
+                        }
+                        <h3>Задайте расписание вашей группы:</h3>
+                        <a href="#" onclick="edit('NForm', 5)">Числитель</a>
+                        <a href="#" onclick="edit('DForm', 6)">Знаменатель</a>
+                        <form id="NForm" class="hiddenForm" action="/Teacher/AddSchedule" method="post">
+                            <div class="flex-box">
+                                @for (int i = 0; i < 6; i++)
+                                {
+                                    <div>
+                                        <p><span>@Model.nameOfDays[i]</span></p>
+                                        <p>Первая пара:</p>
+                                        <input type="text" name="subjects[@i][0]" value="" placeholder="Предмет" />
+                                        <p>Начало первой пары:</p>
+                                        <input type="time" name="time[@i][0]" value="" placeholder="" />
+
+                                        <p>Вторая пара:</p>
+                                        <input type="text" name="subjects[@i][1]" value="" placeholder="Предмет" />
+                                        <p>Начало второй пары:</p>
+                                        <input type="time" name="time[@i][1]" value="" placeholder="" />
+
+                                        <p>Третья пара:</p>
+                                        <input type="text" name="subjects[@i][2]" value="" placeholder="Предмет" />
+                                        <p>Начало третьей пары:</p>
+                                        <input type="time" name="time[@i][2]" value="" placeholder="" />
+
+                                        <input type="hidden" name="IsNumerator" value="true" />
+                                    </div>
+                                }
+                            </div>
+                            <button>Задать</button>
+                        </form>
+                        <form id="DForm" class="hiddenForm" action="/Teacher/AddSchedule" method="post">
+                            <div class="flex-box">
+                                @for (int i = 0; i < 6; i++)
+                                {
+                                    <div>
+                                        <p><span>@Model.nameOfDays[i]</span></p>
+                                        <p>Первая пара:</p>
+                                        <input type="text" name="subjects[@i][0]" value="" placeholder="Предмет" />
+                                        <p>Начало первой пары:</p>
+                                        <input type="time" name="time[@i][0]" value="" placeholder="" />
+
+                                        <p>Вторая пара:</p>
+                                        <input type="text" name="subjects[@i][1]" value="" placeholder="Предмет" />
+                                        <p>Начало второй пары:</p>
+                                        <input type="time" name="time[@i][1]" value="" placeholder="" />
+
+                                        <p>Третья пара:</p>
+                                        <input type="text" name="subjects[@i][2]" value="" placeholder="Предмет" />
+                                        <p>Начало третьей пары:</p>
+                                        <input type="time" name="time[@i][2]" value="" placeholder="" />
+
+                                        <input type="hidden" name="IsNumerator" value="false" />
+                                    </div>
+                                }
+                            </div>
+                            <button>Задать</button>
+                        </form>
+                    }
+                </div>
+                }
+                else
+                {
+                    <p>Вы пока не назначены куратором!</p>
+                }
+            </div>
+        </div> 

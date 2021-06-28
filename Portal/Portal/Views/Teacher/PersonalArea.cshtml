@@ -1,0 +1,75 @@
+﻿@model TeacherPersonalAreViewModel;
+
+@{ 
+    Layout = "~/Views/Shared/_TeacherLayout.cshtml";
+}
+
+<div class="content">
+    <div class="teacher-head">
+        <div class="info">
+            <p><span>Имя:</span> @Model.fullName</p>
+            <p><span>Дата рождения:</span> @Model.dateOfBirthday</p>
+        </div>
+        <div class="img">
+            <img src="@Model.imagePath" alt="">
+            <a style="color: gray; border-bottom: 1px dashed gray; margin: 15px 10px;" onclick="navbarShow('upload',4)" href="#">
+                Редактировать фото
+            </a>
+            <form style="display: none;" id="upload" action="/Account/UploadImage" method="post" enctype="multipart/form-data">
+                <input type="file" name="userImage" />
+                <input type="submit" value="Загрузить" />
+            </form>
+        </div>
+    </div>
+
+    <div class="rele">
+        <a class="rele-link" href="#" onclick="releAnimation('schedule')">Ваша группа</a>
+        <a class="rele-link" href="#" onclick="releAnimation('courses')">Ваши курсы</a>
+    </div>
+    <div class="container">
+        <div id="courses" class="courses">
+            @if (Model.courses != null)
+            {
+                foreach (var el in Model.courses)
+                {
+                    <a href="/Teacher/Course/?courseNumber=@el.id">
+                        <div class="item">
+                            <h4>Название предмета: @el.name</h4>
+                            <h4>Группа: <span>@el.group.name</span></h4>
+                        </div>
+                    </a>
+                }
+            }
+            else
+            {
+                <h2>На данный момент вы не приподаете не на одном курсе!</h2>
+            }
+        </div>
+        <div id="schedule" class="hidden-block">
+            @if (Model.IsHasGroup)
+            {
+                <h2><span>Ваша группа:</span><a href="/Teacher/Group">@Model.groupName</a></h2>
+
+                <h3>Студенты: </h3>
+                <div class="flex-box">
+                    @foreach (var student in Model.students)
+                    {
+                        <div style="display:block; margin: 5px 25px; border: 3px solid darkgray; padding: 10px;">
+                            <p>Имя: @student.sename @student.name</p>
+                            <p>Дата рождения: @student.dateOfBirthday.ToLongDateString()</p>
+                        </div>
+                    }
+                </div>
+                <h3><span>Количесто:</span> @Model.students.Count</h3>
+            }
+            else
+            {
+                <p>Вы не назначены куратором не в одной группе!</p>
+            }
+        </div>
+        <div id="chats">
+        </div>
+        <div id="marks">
+        </div>
+    </div>
+</div>

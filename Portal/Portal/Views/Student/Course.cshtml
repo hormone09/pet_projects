@@ -1,0 +1,98 @@
+﻿@using Portal.Models.ViewModels;
+@model CourseViewModel;
+
+@{
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+<div class="content">
+    <div class="flex-box head course-header">
+        <div class="item">
+            <h1><span>Курс:</span> @Model.courseName</h1>
+            <h2>Группа: @Model.groupName</h2>
+            <h2>Запланированно атестаций: @Model.numberBorders</h2>
+        </div>
+        <div class="item">
+            @if (!Model.teacherName.Equals(""))
+            {
+                <img src="~/img/user.png" alt="Alternate Text" />
+                <h3>
+                    Преподаватель: @Model.teacherName
+                </h3>
+            }
+            else
+            {
+                <h3>Преподаватель на данный курс пока не назначен!</h3>
+            }
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            @if (Model.activeBorder != null)
+            {
+                <div>
+                    <h2>Сейчас идет @Model.activeBorder.name период.</h2>
+                    <div class="active subject">
+                        @if (Model.subjectToday != null)
+                        {
+                            <h4>Сегодняшнее занятие: </h4>
+                            <div>
+                                <p><span>Тема:</span>@Model.subjectToday.heading</p>
+                                <p><span>Задание:</span>@Model.subjectToday.task</p>
+                                <p><span>Дата проведения:</span> @Model.subjectToday.date.ToShortDateString()</p>
+                            </div>
+                        }
+                        else
+                        {
+                            <h4>Сегодня а этом курсе нет пар!</h4>
+                        }
+                    </div>
+                    <div>
+                        <h4>Другие занятия на этом курсе: </h4>
+                        @for (int i=0; i< ViewBag.Subjects.Count; i++)
+                        {
+                            <div class="flex-box subject">
+                                <div class="task">
+                                    <p><span style="color: #b311aa">Тема:</span>@ViewBag.Subjects[i].heading</p>
+                                    <p><span style="color: #b311aa">Задание:</span>@ViewBag.Subjects[i].task</p>
+                                    <p><span style="color: #b311aa">Время проведения:</span> @ViewBag.Subjects[i].date.ToLongDateString() @ViewBag.Subjects[i].time</p>
+                                    <p><span style="color: #b311aa">День сдачи:</span> @ViewBag.Subjects[i].timeBorderForAnswer.ToLongDateString()</p>
+                                </div>
+                                <div class="answer">
+                                    @if (ViewBag.Subjects[i].answers != null 
+                                        && ViewBag.Subjects[i].answers.Count > 0)
+                                    {
+                                        <p>Ваш ответ: @ViewBag.Subjects[i].answers[0].text</p>
+                                        if (ViewBag.Subjects[i].answers[0].mark != null)
+                                        {
+                                            <p>Оценка: @ViewBag.Subjects[i].answers[0].mark.valueOfMark</p>
+                                        }
+                                        else
+                                        {
+                                            <p>Не оценено!</p>
+                                        }
+                                        <h4 class="success-block">Вы ответили на задание @ViewBag.Subjects[i].answers[0].time.ToShortDateString()</h4>
+                                    }
+                                    else
+                                    {
+                                        <h4>Добавьте ответ на задание:</h4>
+                                        <form id="answer" action="" method="post">
+                                            <input type="hidden" name="studentNumber" value="@Model.personNumber" />
+                                            <input type="hidden" name="subjectNumber" value="@ViewBag.Subjects[i].id" />
+                                            <input type="text" name="answerText" value="" />
+                                            <input class="button" type="button" onclick="sendForm('answer', @i)" value="Отправить" />
+                                        </form>
+                                        <h3 class="info-message"></h3>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+            else
+            {
+                <p>На данный момент на этом курсе не ведутся занятия!</p>
+            }
+        </div>
+    </div>
+</div> 

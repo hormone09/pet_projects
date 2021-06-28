@@ -1,0 +1,25 @@
+﻿@model NewPersonViewModel;
+
+    <div>
+        <h2>Регистрация нового пользователя:</h2>
+        <form action="/Administration/AddPerson" method="post">
+            <div>
+                <p>Имя:</p>
+                <input type="text" name="name" value="" />
+            </div>
+            <div>
+                <p>Фамилия:</p>
+                <input type="text" name="sename" value="" />
+            </div>
+            <div>
+                <p>Почтовый адресс:</p>
+                <input type="text" name="email" value="" placeholder="student@mail.ru" />
+            </div>
+            <div>
+                <p>Дата рождения: </p>
+                <input type="text" name="birthday" value="" placeholder="" />
+                <input type="hidden" name="IsTeacher" value="false" />
+            </div>
+            <button>Отправить заявку</button>
+        </form>
+    </div>

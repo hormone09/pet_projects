@@ -1,0 +1,468 @@
+body
+{
+    color: white;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(19, 19, 19);
+}
+span {
+    color: #b311aa;
+    margin: 0px 5px;
+}
+.info-message
+{
+    display: block;
+}
+.container {
+    width: 80%;
+    margin: 1% 10%;
+}
+.flex-box
+{
+    display: flex;
+}
+.hiddenForm
+{
+    display: none;
+    background-color: black;
+    border: 1px solid silver;
+    color: silver;
+    text-align: justify;
+    width: 500px;
+    
+}
+.hidden-block {
+    margin: 150px 0px;
+    display: none;
+    animation-name: line-animation;
+    animation-duration: 800ms;
+}
+.hidden-vertical-block
+{
+    background-color: rgb(58, 58, 58);
+    border: 1px solid darkgray;
+    display: none;
+    width: 120%;
+    margin: 0% -20%;
+    height: auto;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+    .hidden-vertical-block p {
+        text-align: justify;
+        margin: 5px 8px;
+    }
+.success-block {
+    border: 2px solid rgb(20 100 11);
+    background-color: rgb(106 170 108);
+    color: rgb(20 100 11);
+}
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+h3
+{
+    font-weight: normal;
+    margin: 30px 30px;
+    font-size: 25px;
+}
+h4
+{
+    margin: 20px 30px;
+    font-size: 20px;
+}
+.content
+{
+    position: absolute;
+    width: 83%;
+    right: 0px;
+    top: 0px;
+}
+.navbar {
+    width: 17%;
+    height: auto;
+    min-height: 100%;
+    position: fixed;
+    background-color: black;
+    color: white;
+    overflow: visible;
+    scroll-behavior: auto;
+}
+.navbar .info
+{
+    display: block;
+    color: white;
+    font-size: 25px;
+    margin: 20px 0px;
+    width: 100%;
+    height: 300px;
+    border-bottom: 3px solid #b311aa;
+    text-align: left;
+}
+.navbar .logo
+{
+    margin: 20px 30px;
+    width: 60%;
+    height: auto;
+    border-radius: 0%;
+}
+.navbar .info .text
+{
+    width: 100%;
+    margin: 50px 0px;
+    border: none;
+}
+.navbar .links
+{
+    height: auto;
+    width: 100%;
+}
+.navbar .info .text img
+{
+    height: 30px;
+    width: 30px;
+}
+.navbar ul
+{
+    color: silver;
+    margin: 45% 10%;
+    font-size: 20px;
+}
+.navbar li
+{
+    width: 100%;
+    list-style-type: none;
+    margin: 40px 0px;
+}
+.navbar ul li a:hover
+{
+    color: white;
+}
+a:hover
+{
+    color: #b311aa;
+}
+.navbar a:hover li
+{
+    background-color: white;
+}
+.navbar .icons
+{
+    margin: 0% 15%;
+    text-align: center;
+    display: flex;
+}
+.navbar .icons img
+{
+    margin: 0% 5%;
+    width: 50px;
+    height: 50px;
+}
+.navbar .icons a
+{
+    margin: 0% 5%;
+}
+.info img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.info 
+{
+    color: lightgrey;
+    display: flex;
+    height: 240px;
+    margin: 80px 0px;
+    border-bottom: 3px solid #b311aa;
+}
+.info .img
+{
+    margin: 0% 10%;
+    text-align: left;
+    width: 10%;
+}
+.info .text
+{
+    font-size: 21px;
+    width: 40%;
+    border-right: 2px solid white;
+}
+.info .icons
+{
+    text-align: center;
+    margin: -20px 0px;
+    width: 30%;
+}
+.info .icons p
+{
+    font-size: 15px;
+    margin: -20px;
+}
+.rele
+{
+    width: 90%;
+    margin: -3% 5%;
+    display: flex;
+    justify-content: center;
+}
+.rele a
+{
+    font-size: 20px;
+    margin: 0% 5%;
+    color: white;
+    border-bottom: 2px solid rgb(19, 19, 19);
+}
+.rele a:hover
+{
+    border-bottom: 2px solid #b311aa;
+}
+.course-with-answer 
+{
+   width: 350px;
+   height: auto;
+   border: 5px solid gray;
+   display: block;
+   text-align: center;
+}
+.course-with-answer .answer-value
+{
+    margin: 3% 2%;
+    text-align: left;
+    border-top: 1px dotted #b311aa;
+    border-bottom: 1px dotted #b311aa;
+    width: 96%;
+}
+.courses
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 130px 0px;
+    animation-name: line-animation;
+    animation-duration: 1s;
+}
+.courses a
+{
+    margin: 20px 25px;
+}
+.courses .item
+{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1% 2%;
+    border: 2px solid silver;
+    border-radius: 5%;
+    width: 350px;
+    height: 220px;
+    background-color: rgb(58, 58, 58);
+}
+.courses .item h2
+{
+    color: #b311aa;
+}
+.course-header {
+    color: silver;
+    margin: 3% 0%;
+    width: 100%;
+    height: 240px;
+    margin: 80px 0px;
+    border-bottom: 3px solid #b311aa;
+}
+.course-header .forms
+{
+    width: 30%;
+    display: block;
+    margin: 0% 5%;
+}
+.course-header .students
+{
+    width: 40%;
+    margin: 0% 15%;
+}
+.course-header img 
+{
+    margin: 0px 110px;
+    height: 180px;
+}
+.course-header .item
+{
+    width: 45%; 
+    margin: 0% 5%;
+}
+.schedule .flex-box div
+{
+    margin: 15px 30px;
+}
+.subject {
+    height: 250px;
+    font-size: 20px;
+    margin: 0% 5%;
+    width: 90%;
+    margin: 2% 5%;
+    border: 2px solid gray;
+}
+.subject .task
+{
+    margin: 0% 5%;
+    width: 40%;
+    display: block;
+}
+.subject .task p
+{
+    margin: 28px 0px;
+}
+.subject .answer
+{
+    margin: 0% 0%;
+    display: block;
+}
+.subject .answer input
+{
+   width: 100%;
+   height: 130px;
+   font-size: 17px;
+   font-weight: bold;
+   border-radius: 4%;
+}
+.subject .answer .button
+{
+    margin: 1% 35%;
+    border: none;
+    font-weight: bold;
+    background-color: #b311aa;
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+.teacher-head
+{
+    color: lightgrey;
+    display: flex;
+    height: 240px;
+    margin: 80px 0px;
+    border-bottom: 3px solid #b311aa;
+}
+.teacher-head .info
+{
+    margin: 0% 10%;
+    display: block;
+    font-size: 21px;
+    width: 40%;
+}
+.teacher-head .img {
+margin: 0% -5%;
+text-align: left;
+width: 10%;
+}
+.teacher-head .img img {
+width: 150px;
+height: 150px;
+border-radius: 100%;
+}
+.subject-answers
+{
+    width: 105%;
+}
+.subject-answers div
+{
+    margin: 3% 2%;
+    width: 350px;
+    border-left: 4px solid silver;
+    border-right: 4px solid silver;
+}
+.subject-answers h2
+{
+    margin: 5px 10px;
+    border-bottom: 4px solid silver;
+    font-weight: bold;
+    color: #b311aa;
+}
+.subject-answers p
+{
+    font-size: 17px;
+    margin: 20px 7px;
+}
+.notifications .flex-box
+{
+    font-size: 13px;
+    text-align: justify;
+    border: 1px solid darkgray;
+    height: 50px;
+}
+.notificationsCount {
+    margin: 2px 10px;
+    text-align: center;
+    color: silver;
+    font-size: 17px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #b311aa;
+}
+.notif
+{
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+    display: none;
+    width: 300px;
+    height: 150px;
+    border: 3px solid #b311aa;
+    background-color: black;
+    color: silver;
+    text-align: center;
+}
+.notif p
+{
+    margin: 15px 10px;
+}
+.active
+{
+    border: 3px solid purple;
+    width: 400px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1383px) {
+    .navbar .icons img {
+        width: 30px;
+        height: 30px;
+    }
+    .navbar ul {
+        font-size: 15px;
+        margin: 45% -10%;
+    }
+}
+
+        @keyframes line-animation {
+            0% {
+                position: absolute;
+                left: 1000px;
+                top: 311.5px;
+            }
+
+            100% {
+                position: absolute;
+                left: 160px;
+                top: 311.5px;
+            }
+        }
+
+        @keyframes vertical-animation {
+            0% {
+                height: 0px;
+            }
+
+            100% {
+                height: 0px;
+            }
+        }
